@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:four_play/screens/how_to_play.dart';
 import 'package:four_play/utilities/buttons/blue_dashboard_button.dart';
 import 'package:four_play/utilities/text/text_styles.dart';
 
@@ -32,7 +33,9 @@ class Dashboard extends StatelessWidget {
                     style: blue_dashboard_button_text,
                   )),
               BlueDashboardButton(
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => HowToPlay()));
+                  },
                   buttonLabel: Text(
                     button2,
                     style: blue_dashboard_button_text,

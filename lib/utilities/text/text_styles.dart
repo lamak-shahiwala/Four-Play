@@ -6,3 +6,25 @@ fontSize: 24,
 fontFamily: 'Sofia_Sans',
 fontWeight: FontWeight.w400,
 );
+
+const heading = TextStyle(
+  color: Colors.black,
+  fontSize: 38,
+  fontFamily: 'Sofia Sans',
+  fontWeight: FontWeight.w700,
+);
+
+const sub_heading = TextStyle(
+color: Colors.black,
+fontSize: 24,
+fontFamily: 'Sofia Sans',
+fontWeight: FontWeight.w600,
+);
+
+const bullet_points = TextStyle(
+  color: Colors.black,
+  fontSize: 18,
+  fontFamily: 'Sofia Sans',
+  fontWeight: FontWeight.w400,
+);
+
