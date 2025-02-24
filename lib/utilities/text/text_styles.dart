@@ -7,6 +7,13 @@ fontFamily: 'Sofia_Sans',
 fontWeight: FontWeight.w400,
 );
 
+const settings_infinite_white_button_text = TextStyle(
+  color: Colors.black,
+  fontSize: 18,
+  fontFamily: 'Sofia Sans',
+  fontWeight: FontWeight.w400,
+);
+
 const heading = TextStyle(
   color: Colors.black,
   fontSize: 38,
