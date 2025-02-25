@@ -55,11 +55,11 @@ class Settings extends StatelessWidget {
               height: 2,
             ),
           )),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(18, 10, 30, 10),
-            child: SettingsInfiniteWhiteButton(
+      body: Padding(
+        padding: const EdgeInsets.fromLTRB(15, 10, 30, 10),
+        child: Column(
+          children: [
+            SettingsInfiniteWhiteButton(
               onPress: () {},
               buttonLabel: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -76,10 +76,7 @@ class Settings extends StatelessWidget {
                 ],
               ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(18, 0, 12, 10),
-            child: SettingsInfiniteWhiteButton(
+            SettingsInfiniteWhiteButton(
               onPress: () {},
               buttonLabel: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -92,10 +89,7 @@ class Settings extends StatelessWidget {
                 ],
               ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(18, 0, 32, 10),
-            child: SettingsInfiniteWhiteButton(
+            SettingsInfiniteWhiteButton(
               onPress: () {},
               buttonLabel: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -112,8 +106,8 @@ class Settings extends StatelessWidget {
                 ],
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
