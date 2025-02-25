@@ -60,39 +60,52 @@ class Settings extends StatelessWidget {
         child: Column(
           children: [
             SettingsInfiniteWhiteButton(
-                onPress: () {},
-                buttonLabel: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Themes",
-                      style: settings_infinite_white_button_text,
-                    ),
-                    Icon(Icons.contrast , size: 22, color: Colors.black,),
-                  ],
-                ),),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Sound",
-                  style: settings_infinite_white_button_text,
-                ),
-                SettingsSoundSwitch()
-              ],
+              onPress: () {},
+              buttonLabel: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Themes",
+                    style: settings_infinite_white_button_text,
+                  ),
+                  Icon(
+                    Icons.contrast,
+                    size: 22,
+                    color: Colors.black,
+                  ),
+                ],
+              ),
             ),
             SettingsInfiniteWhiteButton(
-                onPress: () {},
-                buttonLabel: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "About Developers",
-                      style: settings_infinite_white_button_text,
-                    ),
-                    Icon(Icons.event_note_rounded, size: 22, color: Colors.black,),
-                  ],
-                ),),
+              onPress: () {},
+              buttonLabel: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Sound",
+                    style: settings_infinite_white_button_text,
+                  ),
+                  SettingsSoundSwitch()
+                ],
+              ),
+            ),
+            SettingsInfiniteWhiteButton(
+              onPress: () {},
+              buttonLabel: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "About Developers",
+                    style: settings_infinite_white_button_text,
+                  ),
+                  Icon(
+                    Icons.event_note_rounded,
+                    size: 22,
+                    color: Colors.black,
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
