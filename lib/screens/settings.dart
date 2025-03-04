@@ -93,9 +93,9 @@ class Settings extends StatelessWidget {
               onPress: () {},
               buttonLabel: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
+                children: [ 
                   Text(
-                    "About Developers",
+                    "Developers",
                     style: settings_infinite_white_button_text,
                   ),
                   Icon(
