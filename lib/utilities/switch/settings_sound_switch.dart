@@ -13,11 +13,11 @@ class _SettingsSoundSwitchState extends State<SettingsSoundSwitch> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: Alignment.centerRight, // Ensures right alignment
+      alignment: Alignment.centerRight,
       child: SizedBox(
-        width: 30, // Controls width to align properly
+        width: 30,
         child: Transform.scale(
-          scale: 0.55, // Adjusted scale for better visibility
+          scale: 0.55,
           child: Switch(
             value: switchValue,
             onChanged: (value) {
