@@ -95,7 +95,7 @@ class Settings extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [ 
                   Text(
-                    "Developers",
+                    "About Developers",
                     style: settings_infinite_white_button_text,
                   ),
                   Icon(
